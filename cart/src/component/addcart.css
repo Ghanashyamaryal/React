@@ -1,0 +1,46 @@
+/* Container for the entire shopping cart */
+.cart-container {
+    width: 300px; /* Adjust width as needed */
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Style for each item in the cart */
+  .cart-item {
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Style for the item name */
+  .item-name {
+    font-weight: bold;
+  }
+  
+  /* Style for the item price */
+  .item-price {
+    color: #888;
+  }
+  
+  /* Style for the total price */
+  .total-price {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Style for the checkout button */
+  .checkout-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the checkout button */
+  .checkout-button:hover {
+    background-color: #0056b3;
+  }
+  
