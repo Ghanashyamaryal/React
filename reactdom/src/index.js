@@ -18,6 +18,7 @@ const router = createBrowserRouter(
       <Route path='/github' element = {<Github />}/>
     </Route>
   )
+  
 )
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
